@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "russian-engineering-skills",
+  "version": "1.0.0",
+  "description": "Навыки для российской проектной и сметной документации, инженерных расчётов, DWG, PDF, DOCX, XLSX, 1С и Яндекс Трекера.",
+  "author": {
+    "name": "dmarkovby-afk",
+    "url": "https://github.com/dmarkovby-afk"
+  },
+  "homepage": "https://github.com/dmarkovby-afk/russian-engineering-skills",
+  "repository": "https://github.com/dmarkovby-afk/russian-engineering-skills",
+  "keywords": [
+    "russian-engineering",
+    "construction-estimates",
+    "project-documentation",
+    "gas-supply",
+    "dwg"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Российские инженерные навыки",
+    "shortDescription": "Сметы, проектная документация, газоснабжение и DWG.",
+    "longDescription": "Набор навыков для проверки и подготовки российской проектной и сметной документации, расчётов МЧРГ, работы с DWG, PDF, DOCX, XLSX, 1С и Яндекс Трекером.",
+    "developerName": "dmarkovby-afk",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/dmarkovby-afk/russian-engineering-skills",
+    "privacyPolicyURL": "https://github.com/dmarkovby-afk/russian-engineering-skills/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/dmarkovby-afk/russian-engineering-skills/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Проверь комплект сметной документации.",
+      "Подготовь расчёт МЧРГ по исходным документам.",
+      "Проверь проектные PDF и DWG по замечаниям."
+    ],
+    "brandColor": "#1F4E79"
+  }
+}

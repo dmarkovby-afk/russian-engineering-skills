@@ -1,0 +1,4 @@
+interface:
+  display_name: "LibreOffice Windows Safe"
+  short_description: "Safe headless LibreOffice calls on Windows"
+  default_prompt: "Use $libreoffice-windows-safe to convert a document with LibreOffice safely on Windows."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "XMLonline Expert Comments"
+  short_description: "Fix expert comments in XMLonline notes"
+  default_prompt: "Use $xmlonline-expert-comments to process expert remarks, update the XMLonline explanatory note, and draft the response."

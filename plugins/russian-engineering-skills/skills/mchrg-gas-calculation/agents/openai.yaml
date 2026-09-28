@@ -1,0 +1,7 @@
+interface:
+  display_name: "МЧРГ — расчет расхода газа"
+  short_description: "МЧРГ строго по встроенным шаблонам и с аудитом формул"
+  default_prompt: "Используй $mchrg-gas-calculation для разработки МЧРГ строго по автоматически выбранному встроенному DOCX-шаблону и выполни обязательный аудит формул."
+
+policy:
+  allow_implicit_invocation: true

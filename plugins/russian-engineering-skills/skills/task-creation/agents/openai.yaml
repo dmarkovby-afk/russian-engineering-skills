@@ -1,0 +1,4 @@
+interface:
+  display_name: "Создание задачи"
+  short_description: "Создание задач в Yandex Tracker"
+  default_prompt: "Use $task-creation to create a Yandex Tracker issue with project, assignee, description, and correct UTF-8 encoding."

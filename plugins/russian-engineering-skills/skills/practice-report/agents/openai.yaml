@@ -1,0 +1,6 @@
+interface:
+  display_name: "Отчёт по практике"
+  short_description: "Составление и проверка отчётов по практике"
+  default_prompt: "Используй $practice-report, чтобы подготовить отчёт по практике по предоставленным исходникам и образцам."
+policy:
+  allow_implicit_invocation: true

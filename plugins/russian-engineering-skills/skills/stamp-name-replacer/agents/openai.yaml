@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stamp Name Replacer"
+  short_description: "Replace names in Russian PDF stamps"
+  default_prompt: "Use $stamp-name-replacer to replace surnames and initials in PDF title-block stamps and visually verify the edited pages."
+
+policy:
+  allow_implicit_invocation: true

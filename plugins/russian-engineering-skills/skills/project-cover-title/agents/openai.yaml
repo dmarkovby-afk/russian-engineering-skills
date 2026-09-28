@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Cover Title"
+  short_description: "Make project cover/title pages from DOCX templates"
+  default_prompt: "Use $project-cover-title to create a project cover and title sheet from a Word template while preserving layout."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Таблица регистрации изменений"
+  short_description: "Заполняет лист регистрации изменений"
+  default_prompt: "Use $registration-changes-table to add and fill a registration changes sheet in a project PDF."

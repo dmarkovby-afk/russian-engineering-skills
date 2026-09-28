@@ -1,0 +1,4 @@
+interface:
+  display_name: "DWG Batch Publish Layouts"
+  short_description: "Create publish-ready AutoCAD layouts from DWG sheet strips."
+  default_prompt: "Настрой пакетную печать DWG: найди рамки на Layout, создай отдельные листы, настрой Window plot и DSD."

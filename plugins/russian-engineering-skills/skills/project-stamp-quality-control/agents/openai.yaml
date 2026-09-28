@@ -1,0 +1,7 @@
+interface:
+  display_name: "Проверка штампов проектных листов"
+  short_description: "Контроль штампов первого и последующих листов"
+  default_prompt: "Используй $project-stamp-quality-control для проверки штампов проектных листов."
+
+policy:
+  allow_implicit_invocation: true

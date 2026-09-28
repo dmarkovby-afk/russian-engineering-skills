@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Smoke: fragment GRU",
+    "source": "sample",
+    "paper": {
+      "format": "A3",
+      "orientation": "landscape",
+      "width_mm": 420,
+      "height_mm": 297
+    },
+    "default_lineweight": 0.35,
+    "text_height": 2.5
+  },
+  "pipes": [
+    {
+      "id": "p-main",
+      "points": [[40, 150], [380, 150]],
+      "dn": 100
+    },
+    {
+      "id": "p-vent",
+      "points": [[260, 150], [260, 190]]
+    }
+  ],
+  "symbols": [
+    { "id": "v1", "type": "valve_ball", "pos": [90, 150], "rotation": 0 },
+    { "id": "f1", "type": "filter_gas", "pos": [150, 150], "rotation": 0 },
+    { "id": "m1", "type": "meter_gas", "pos": [210, 150], "rotation": 0 },
+    { "id": "r1", "type": "regulator", "pos": [300, 150], "rotation": 0, "attrs": { "size": 10 } },
+    { "id": "p1", "type": "manometer", "pos": [180, 150], "rotation": 90 },
+    { "id": "c1", "type": "vent", "pos": [260, 190], "rotation": 0, "scale": 0.7 }
+  ],
+  "texts": [
+    {
+      "text": "Схема ГРУ (smoke-test)",
+      "pos": [210, 280],
+      "height": 5,
+      "halign": "center",
+      "valign": "top",
+      "layer": "TITLE"
+    },
+    {
+      "text": "Ввод газа в ГРУ  Pp ≤ 6 кгс/см²  Ду=100 мм",
+      "pos": [40, 162],
+      "height": 2.5
+    },
+    {
+      "text": "Кран шаровой",
+      "pos": [90, 138],
+      "height": 2.2,
+      "halign": "center",
+      "valign": "top"
+    },
+    {
+      "text": "Фильтр газовый",
+      "pos": [150, 138],
+      "height": 2.2,
+      "halign": "center",
+      "valign": "top"
+    },
+    {
+      "text": "Счетчик газа РС-СПА-М",
+      "pos": [210, 132],
+      "height": 2.2,
+      "halign": "center",
+      "valign": "top"
+    },
+    {
+      "text": "Регулятор давления РДБК1-50-35",
+      "pos": [300, 128],
+      "height": 2.2,
+      "halign": "center",
+      "valign": "top"
+    }
+  ],
+  "leaders": [
+    { "p1": [90, 146], "p2": [90, 140] }
+  ],
+  "arrows": [
+    { "pos": [60, 150], "rotation": 0, "size": 3.2 }
+  ],
+  "hatches": [
+    {
+      "points": [[118, 147], [138, 147], [138, 153], [118, 153]],
+      "pattern": "ANSI31",
+      "scale": 1.2
+    }
+  ],
+  "primitives": [
+    { "kind": "rect", "p1": [20, 20], "p2": [400, 277], "layer": "FRAME" }
+  ],
+  "unreadable": [
+    { "region": [330, 200, 370, 230], "note": "пример блика, в выдаче не выдумывать текст" }
+  ]
+}

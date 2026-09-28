@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read PDF"
+  short_description: "Read local PDF files and extract searchable text."
+  default_prompt: "Use this skill to inspect local PDF files, extract text page by page, and answer questions from their contents."

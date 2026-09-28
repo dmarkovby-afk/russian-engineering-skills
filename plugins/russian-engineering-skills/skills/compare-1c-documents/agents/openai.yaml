@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare 1C Documents"
+  short_description: "Compare 1C rows read-only."
+  default_prompt: "Compare two 1C documents in read-only mode, verify full row coverage, and produce an Excel discrepancy report."

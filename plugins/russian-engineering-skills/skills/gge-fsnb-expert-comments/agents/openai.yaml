@@ -1,0 +1,7 @@
+interface:
+  display_name: "Отработка замечаний GGE через ФСНБ"
+  short_description: "Правка GGE по замечаниям с проверкой SmetaFree"
+  default_prompt: "Use $gge-fsnb-expert-comments to самостоятельно загрузить актуальные GGE, отработать замечания экспертизы через ФСНБ и проверить результат в SmetaFree без дополнительного запроса пользователю."
+
+policy:
+  allow_implicit_invocation: true

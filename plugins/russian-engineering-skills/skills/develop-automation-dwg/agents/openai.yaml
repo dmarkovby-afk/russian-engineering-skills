@@ -1,0 +1,4 @@
+interface:
+  display_name: "Проекты автоматизации DWG"
+  short_description: "Аудит и корректировка проектов АТМ в DWG"
+  default_prompt: "Используй $develop-automation-dwg для проверки и корректировки проекта автоматизации в DWG."

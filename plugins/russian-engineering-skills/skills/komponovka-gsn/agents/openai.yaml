@@ -1,0 +1,4 @@
+interface:
+  display_name: "Компоновка ГСН"
+  short_description: "Собирает ГСН/ИОС6 с обложками и приложениями"
+  default_prompt: "Use $komponovka-gsn to assemble a GSN or IOS6 issue PDF with cover/title sheets, technical conditions, and equipment passport attachments."

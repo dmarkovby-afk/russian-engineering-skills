@@ -1,0 +1,4 @@
+interface:
+  display_name: "GSS Online: замечания экспертизы"
+  short_description: "Отработка GGE, ЛСР, ОСР, ССРСС и ВОР"
+  default_prompt: "Use $gss-online-expert-comments to сверить замечания с актуальными проектными томами и GGE, исправить подтверждённые расхождения в Госстройсмете и проверить экспортированные файлы."

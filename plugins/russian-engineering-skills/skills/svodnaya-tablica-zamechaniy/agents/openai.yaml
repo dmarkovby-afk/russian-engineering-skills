@@ -1,0 +1,4 @@
+interface:
+  display_name: "Сводная таблица замечаний"
+  short_description: "Собирает замечания и ответы в эталонный Excel"
+  default_prompt: "Используй $svodnaya-tablica-zamechaniy. Если пользователь дал список PDF, запусти scripts/build_from_pdf_list.py. Обсуждение внизу PDF пиши в «Ответ исполнителя», поле формы «Предложения» не подменяй."

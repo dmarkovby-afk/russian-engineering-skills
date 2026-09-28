@@ -1,0 +1,4 @@
+interface:
+  display_name: "Смета Материал"
+  short_description: "Вносит материалы из счета в выгрузку сметы"
+  default_prompt: "Используй $smeta-material, чтобы внести материалы из счета в файл .sm и проверить печатную форму."

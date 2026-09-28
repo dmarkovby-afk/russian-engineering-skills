@@ -1,0 +1,20 @@
+{
+  "name": "dmarkovby-engineering",
+  "interface": {
+    "displayName": "Российские инженерные навыки"
+  },
+  "plugins": [
+    {
+      "name": "russian-engineering-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/russian-engineering-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
